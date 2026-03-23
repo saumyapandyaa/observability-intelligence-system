@@ -1,11 +1,11 @@
 # Observability Intelligence System for Log Anomaly Detection
 
-## 🚀 Overview
+## Overview
 This project builds an end-to-end machine learning system to detect anomalies in distributed system logs and reduce alert fatigue. By combining structured log metadata with NLP-based feature extraction, the system identifies abnormal patterns and groups related failures into actionable incidents.
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 Modern distributed systems generate massive volumes of logs, overwhelming SRE and DevOps teams with alerts. Most logs are normal, while only a small fraction represent failures or anomalies. This project addresses:
 
 - Detecting rare anomalous events in highly imbalanced log data  
@@ -14,7 +14,7 @@ Modern distributed systems generate massive volumes of logs, overwhelming SRE an
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Source:** LogHub HDFS Dataset  
 - **Type:** Semi-structured system logs  
 - **Size:** ~2000 log entries  
@@ -28,30 +28,30 @@ Modern distributed systems generate massive volumes of logs, overwhelming SRE an
 
 ---
 
-## ⚙️ Tech Stack
+## Tech Stack
 
-### 🧠 Core Technologies
+### Core Technologies
 - Python  
 - Pandas, NumPy  
 - Scikit-learn  
 - SciPy  
 
-### 🤖 Machine Learning
+### Machine Learning
 - Isolation Forest (unsupervised anomaly detection)  
 - Random Forest (supervised classification)  
 
-### 🧾 NLP / Feature Engineering
+### NLP / Feature Engineering
 - TF-IDF Vectorization  
 - Label Encoding  
 - Temporal Feature Extraction  
 - Message Length Features  
 
-### 📈 Visualization
+### Visualization
 - Matplotlib  
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 ### 1. Data Processing
 - Load structured log dataset  
@@ -77,7 +77,7 @@ Modern distributed systems generate massive volumes of logs, overwhelming SRE an
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 - Achieved **~99% recall** using Isolation Forest  
 - Identified strong class imbalance (~4% anomalies)  
@@ -86,7 +86,7 @@ Modern distributed systems generate massive volumes of logs, overwhelming SRE an
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ```
 observability-intelligence-system/
 ├── data/ # Dataset
@@ -100,7 +100,7 @@ observability-intelligence-system/
 
 ---
 
-## 🧠 Key Insights
+## Key Insights
 
 - Log data is highly imbalanced  
 - Few components dominate system activity  
@@ -109,7 +109,7 @@ observability-intelligence-system/
 
 ---
 
-## ⚠️ Limitations
+## Limitations
 
 - Labels are heuristically generated  
 - Dataset is relatively small  
@@ -118,7 +118,7 @@ observability-intelligence-system/
 
 ---
 
-## 🔮 Future Work
+## Future Work
 
 - Apply LSTM / Transformer-based models  
 - Real-time log streaming (Kafka, Spark)  
@@ -127,7 +127,7 @@ observability-intelligence-system/
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ```bash
 python -m venv .venv
