@@ -87,9 +87,8 @@ Modern distributed systems generate massive volumes of logs, overwhelming SRE an
 ---
 
 ## 📂 Project Structure
-
+```
 observability-intelligence-system/
-│
 ├── data/ # Dataset
 ├── notebooks/ # Main ML pipeline
 ├── src/ # Visualization functions
@@ -97,7 +96,7 @@ observability-intelligence-system/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
-
+```
 
 ---
 
